@@ -1,0 +1,59 @@
+@import "../../styles/mixin.scss";
+@import "../../styles/variables.scss";
+@import "../../styles//main.scss";
+
+.navheader
+{
+    min-height: 54px;
+  nav {
+    background-color:$banner-color;
+    min-height: 56px;
+    a {
+        color:$white;
+    }
+    .nav-login-logout{
+        color:$white;
+    }
+    .navbar-toggler {
+        border-color: #c4c4c4;
+        span{
+            display: block;
+            height: 3px;
+            width: 33px;
+            background: #fff;
+            opacity: 1;        
+            &.line1{
+                position: relative;
+                bottom: 4px;
+            }
+            &.line2{
+                position: relative;
+                bottom: 2px;
+            }      
+        }    
+    }   
+    .navbar-collapse{
+        .nav-login-logout{
+            .login-logout-content{
+               font-style: italic;
+            }
+        }
+
+    } 
+}
+}
+.modal-footer
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px;
+    border-top: 0px;
+    border-bottom-right-radius: calc(0.3rem - 1px);
+    border-bottom-left-radius: calc(0.3rem - 1px);
+    .invalid
+     {
+      color: red;
+     }
+}

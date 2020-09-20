@@ -1,0 +1,116 @@
+{
+  "users": [
+    {
+      "userid": 23,
+      "useremail":"abc@valorem.com",
+      "name": "tom", 
+      "encodedKey":"YWJjJjEyMw=="   
+    },
+    {
+      "userid": 23,
+      "useremail":"user2@gmail.com",
+      "name": "Tibin", 
+      "encodedKey":"YWJjMTIz"    
+    }
+  ],
+  "movies":
+   [
+     {    
+      "movie_name": "City Of God 1",
+      "date_of_release":"Sun Sep 20 2020 12:30:19 GMT+0530 (India Standard Time)",
+      "movie_id":"2312"         
+    },
+    {    
+      "movie_name": "City Of God 2",
+      "date_of_release":"Sun Sep 20 2020 12:30:19 GMT+0530 (India Standard Time)",
+      "movie_id":"2312"         
+    },
+    {    
+      "movie_name": "City Of God 3",
+      "date_of_release":"Sun Sep 20 2020 12:30:19 GMT+0530 (India Standard Time)",
+      "movie_id":"2312"         
+    },
+    {    
+      "movie_name": "City Of God 4",
+      "date_of_release":"Sun Sep 20 2020 12:30:19 GMT+0530 (India Standard Time)",
+      "movie_id":"2312"         
+    },
+    {    
+      "movie_name": "City Of God 5",
+      "date_of_release":"Sun Sep 20 2020 12:30:19 GMT+0530 (India Standard Time)",
+      "movie_id":"2312"         
+    },
+    {    
+      "movie_name": "City Of God 6",
+      "date_of_release":"Sun Sep 20 2020 12:30:19 GMT+0530 (India Standard Time)",
+      "movie_id":"2312"         
+    },
+    {    
+      "movie_name": "City Of God 7",
+      "date_of_release":"Sun Sep 20 2020 12:30:19 GMT+0530 (India Standard Time)",
+      "movie_id":"2312"         
+    },
+    {    
+      "movie_name": "City Of God 8",
+      "date_of_release":"Sun Sep 20 2020 12:30:19 GMT+0530 (India Standard Time)",
+      "movie_id":"2312"         
+    },
+    {    
+      "movie_name": "City Of God 9",
+      "date_of_release":"Sun Sep 20 2020 12:30:19 GMT+0530 (India Standard Time)",
+      "movie_id":"2312"         
+    },
+    {    
+      "movie_name": "City Of God 10",
+      "date_of_release":"Sun Sep 20 2020 12:30:19 GMT+0530 (India Standard Time)",
+      "movie_id":"2312"         
+    },
+    {    
+      "movie_name": "City Of God 11",
+      "date_of_release":"Sun Sep 20 2020 12:30:19 GMT+0530 (India Standard Time)",
+      "movie_id":"2312"         
+    },
+    {    
+      "movie_name": "City Of God 12",
+      "date_of_release":"Sun Sep 20 2020 12:30:19 GMT+0530 (India Standard Time)",
+      "movie_id":"2312"         
+    },
+    {    
+      "movie_name": "City Of God 13",
+      "date_of_release":"Sun Sep 20 2020 12:30:19 GMT+0530 (India Standard Time)",
+      "movie_id":"2312"         
+    },
+    {    
+      "movie_name": "City Of God 14",
+      "date_of_release":"Sun Sep 20 2020 12:30:19 GMT+0530 (India Standard Time)",
+      "movie_id":"2312"         
+    },
+    {    
+      "movie_name": "City Of God 15",
+      "date_of_release":"Sun Sep 20 2020 12:30:19 GMT+0530 (India Standard Time)",
+      "movie_id":"2312"         
+    },
+    {    
+      "movie_name": "City Of God 16",
+      "date_of_release":"Sun Sep 20 2020 12:30:19 GMT+0530 (India Standard Time)",
+      "movie_id":"2312"         
+    },
+    {    
+      "movie_name": "City Of God 17",
+      "date_of_release":"Sun Sep 20 2020 12:30:19 GMT+0530 (India Standard Time)",
+      "movie_id":"2312"         
+    },
+    {    
+      "movie_name": "City Of God 18",
+      "date_of_release":"Sun Sep 20 2020 12:30:19 GMT+0530 (India Standard Time)",
+      "movie_id":"2312"         
+    },
+
+    {    
+      "movie_name": "Narasimham",
+      "date_of_release":"Thu Jan 01 2009 00:00:00 GMT+0530 (India Standard Time)",
+      "movie_id":"2342"         
+    }
+  ]
+
+}

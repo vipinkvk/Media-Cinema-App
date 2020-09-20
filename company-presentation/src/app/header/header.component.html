@@ -1,0 +1,58 @@
+<div class="row navheader">
+  <nav class="navbar navbar-expand-lg fixed-top">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="line1"></span>   
+    <span class="line2"></span>   
+    <span class="line3"></span>  
+  </button>
+
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <ul class="navbar-nav mr-auto ml-auto">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" routerLink="">Home</a>
+      </li>
+      <li class="nav-item" *ngIf="loggedInUser">
+        <a class="nav-link"routerLink="/gallery">Gallery</a>
+      </li>   
+    <li class="nav-item">
+        <a class="nav-link" routerLink="/about">About</a>
+      </li>  
+    </ul>        
+  </ul>
+    <div class="nav-login-logout" *ngIf="this.loggedInUser" (click)="logOut()" >Log out(<span class="login-logout-content">{{this.loggedInUser.useremail}}</span></div>
+    <div class="nav-login-logout" *ngIf="!this.loggedInUser" data-toggle="modal" data-target="#loginFormModal">Log in <span class="login-logout-content">(You are not logged in)</span></div>
+  </div>
+  </nav>
+  
+<!-- Modal -->
+<div class="modal fade" id="loginFormModal" tabindex="-1" role="dialog" aria-labelledby="loginFormModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">     
+      <div class="modal-body">
+        <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email"
+                   class="form-control"
+                   formControlName="email">                   
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password"
+                   class="form-control"
+                   formControlName ="password">                         
+          </div>        
+          <div class="modal-footer">
+            <button type="submit" class="btn btn-primary">Login</button>
+            <button #close type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>  
+            <div *ngIf="submitted && this.loginForm.invalid || (this.submitted && !this.loginStatus) " class="invalid">
+              Credentials Invalid
+            </div>         
+          </div>          
+        </form>
+      </div>     
+    </div>
+  </div>
+</div>
+</div>
