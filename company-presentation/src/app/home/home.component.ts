@@ -11,7 +11,7 @@ import { LoginService } from '../../core/login.service';
 
 export class HomeComponent implements OnInit {
   allMovies: any;
-  constructor(private loginService: LoginService, private moviesDataService: MoviesDataService) { }
+  constructor(private moviesDataService: MoviesDataService) { }
 
   async ngOnInit(): Promise<any> {
   this.allMovies = await this.moviesDataService.getAllMovies();

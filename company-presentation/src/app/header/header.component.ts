@@ -10,11 +10,12 @@ import { LoginService } from 'src/core/login.service';
 })
 export class HeaderComponent implements OnInit {
   loginForm: FormGroup;
-  submitted: boolean = false;
-  loginStatus: boolean = false;
+  submitted = false;
+  loginStatus = false;
   currentUser: any;
   loggedInUser: any;
   allMovies: any;
+
   @ViewChild('close', {
     static: true
 }) closeModalButton: ElementRef;
